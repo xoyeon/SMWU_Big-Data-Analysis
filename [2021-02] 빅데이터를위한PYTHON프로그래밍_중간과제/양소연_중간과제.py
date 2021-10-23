@@ -12,22 +12,22 @@ maxscore = 50
 # 배경화면 설정
 screen = t.Screen()
 screen.setup(1000,600)
-screen.bgpic('C:\\Users\\syeon\\Desktop\\game\\underwater.png')
+screen.bgpic('C:\\underwater.png')
 
 # 낚시꾼 이미지 등록
-fisher = "C:\\Users\\syeon\\Desktop\\game\\fisher.gif"
+fisher = "C:\\fisher.gif"
 screen.register_shape(fisher)
 
 # 물고기 이미지 등록
-imgc = "C:\\Users\\syeon\\Desktop\\game\\3.gif"
+imgc = "C:\\3.gif"
 screen.register_shape(imgc)
-imge = "C:\\Users\\syeon\\Desktop\\game\\5.gif"
+imge = "C:\\5.gif"
 screen.register_shape(imge)
-imgf = "C:\\Users\\syeon\\Desktop\\game\\6.gif"
+imgf = "C:\\6.gif"
 screen.register_shape(imgf)
-imgg = "C:\\Users\\syeon\\Desktop\\game\\7.gif"
+imgg = "C:\\7.gif"
 screen.register_shape(imgg)
-imgh = "C:\\Users\\syeon\\Desktop\\game\\8.gif"
+imgh = "C:\\8.gif"
 screen.register_shape(imgh)
 screen.listen( )
 
